@@ -1,0 +1,90 @@
+---
+
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Narrow:wght@400;700&family=Shippori+Antique+B1&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>WoW Books</title>
+  </head>
+  <body>
+    <header>
+      <h1>WoW Books</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/books">Books</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>
+
+<style>
+  body {
+    margin: 0;
+  }
+
+  header {
+    background-color: #f9f6fc;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  h1 {
+    margin: 0;
+    font-weight: 600;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+  }
+</style>
+<style is:global>
+  * {
+    font-family: "Shippori Antique B1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+  }
+
+  .content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    h2 {
+      font-size: 1.8em;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+  }
+</style>
