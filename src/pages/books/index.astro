@@ -1,24 +1,9 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import BookCard from "../../components/BookCard.astro";
+import { getCollection } from "astro:content";
 
-interface Book {
-  title: string;
-  author: string;
-}
-
-const books: Book[] = [
-  { title: "The Final Empire", author: "Brandon Sanderson" },
-  { title: "The Way of Kings", author: "Brandon Sanderson" },
-  { title: "The Name of the Wind", author: "Patrick Rothfuss" },
-  { title: "The Wise Man's Fear", author: "Patrick Rothfuss" },
-  { title: "The Hobbit", author: "J.R.R. Tolkien" },
-  { title: "The Fellowship of the Ring", author: "J.R.R. Tolkien" },
-  { title: "The Two Towers", author: "J.R.R. Tolkien" },
-  { title: "The Return of the King", author: "J.R.R. Tolkien" },
-];
-
-// const books: Book[] = [];
+const books = await getCollection("books");
 ---
 
 <BaseLayout>

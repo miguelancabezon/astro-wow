@@ -1,0 +1,29 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Likes from "../../components/Likes";
+
+export async function getStaticPaths() {
+  const books = await getCollection("books");
+
+  return books.map((book) => {
+    return {
+      params: { id: book.id },
+      props: { book },
+    };
+  });
+}
+
+const { book } = Astro.props;
+const { Content } = await render(book);
+---
+
+<BaseLayout>
+  <div class="content">
+    <h2>{book.data.title}</h2>
+    <p>by {book.data.author}</p>
+    <p>Rating: {book.data.rating}/10</p>
+    <Likes client:visible />
+    <Content />
+  </div>
+</BaseLayout>

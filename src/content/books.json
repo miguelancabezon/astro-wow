@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "title": "The Final Empire",
+        "author": "Brandon Sanderson",
+        "genre": "Fantasy",
+        "published": 2006,
+        "rating": 9.5,
+        "summary": "A tale of rebellion and magic, where a young street urchin discovers her powers and joins a group of rebels to overthrow a tyrannical ruler."
+    },
+    {
+        "id": 2,
+        "title": "The Way of Kings",
+        "author": "Brandon Sanderson",
+        "genre": "Fantasy",
+        "published": 2010,
+        "rating": 9.7,
+        "summary": "A story of honor, sacrifice, and the struggle for power, following multiple characters as they navigate a world on the brink of war."
+    },
+    {
+        "id": 3,
+        "title": "The Name of the Wind",
+        "author": "Patrick Rothfuss",
+        "genre": "Fantasy",
+        "published": 2007,
+        "rating": 9.6,
+        "summary": "The first book in the Kingkiller Chronicle series, following the life of a gifted young man named Kvothe."
+    },
+    {
+        "id": 4,
+        "title": "The Wise Man's Fear",
+        "author": "Patrick Rothfuss",
+        "genre": "Fantasy",
+        "published": 2011,
+        "rating": 9.5,
+        "summary": "The second book in the Kingkiller Chronicle series, following the life of a gifted young man named Kvothe."
+    },
+    {
+        "id": 5,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "published": 1937,
+        "rating": 9.8,
+        "summary": "A fantasy novel about a hobbit named Bilbo Baggins who is swept into an epic quest by the wizard Gandalf."
+    },
+    {
+        "id": 6,
+        "title": "The Fellowship of the Ring",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "published": 1954,
+        "rating": 9.9,
+        "summary": "The first book in the Lord of the Rings trilogy, following Frodo Baggins as he begins his journey to destroy the One Ring."
+    },
+    {
+        "id": 7,
+        "title": "The Two Towers",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "published": 1954,
+        "rating": 9.9,
+        "summary": "The second book in the Lord of the Rings trilogy, following Frodo and his companions as they continue their journey to destroy the One Ring."
+    },
+    {
+        "id": 8,
+        "title": "The Return of the King",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "published": 1955,
+        "rating": 9.9,
+        "summary": "The final book in the Lord of the Rings trilogy, following Frodo and his companions as they face their ultimate challenge to destroy the One Ring and defeat Sauron."
+    },
+    {
+        "id": 9,
+        "title": "Hyperion",
+        "author": "Dan Simmons",
+        "genre": "Science Fiction",
+        "published": 1989,
+        "rating": 9.4,
+        "summary": "A science fiction novel set in a far-future universe, following a group of pilgrims on a journey to the distant world of Hyperion."
+    }
+]
